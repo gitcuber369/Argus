@@ -1,0 +1,13 @@
+use_default_settings: true
+
+general:
+  instance_name: "argus-local-searx"
+
+search:
+  formats:
+    - html
+    - json
+
+server:
+  secret_key: "argus-local-dev-only-not-secret"
+  limiter: false
